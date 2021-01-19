@@ -1,0 +1,114 @@
+page {
+  height:100%;
+}
+
+.calculator {
+  width: 100%;
+  height: 100vh;
+  border:solid 1px;
+  background: rgb(250, 249, 249);
+  position: relative;
+  box-shadow: 0px 0px 20px 0px rgb(245, 244, 244);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.calculator-display {   
+  background: #f1eff1;
+  flex: 1;
+}
+
+
+.calculator-display-text {
+  padding: 0 30px;
+  font-size: 3em;
+  color: rgb(56, 86, 151);
+  text-align: right;
+}
+
+.calculator-keypad {
+  display: flex;
+
+}
+
+.calculator .function-keys {
+  display: flex;
+  color:rgb(245, 239, 239);
+
+}
+
+.calculator .digit-keys {
+  background: #fafafc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.calculator-key-hover {   
+  box-shadow: inset 0px 0px 25vw 0px hsla(120, 0%, 47%, 0.898);
+}
+
+
+
+.calculator-key {
+background-color:rgb(239, 245, 245);
+
+
+  width: 25vw;
+  height: 25vw;
+  line-height: 25vw;
+  border-top: 1px solid rgb(239, 241, 239);
+  border-right: 1px solid rgb(212, 214, 212);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.calculator .function-keys .calculator-key {/*这里的DEL就是个bug*/
+  padding:0 30px;
+  width:25vw;
+  color: #5369b3;
+  font-size: 2em;
+
+}
+
+.calculator .digit-keys .calculator-key {
+  width:25vw;
+  font-size: 3em;
+}
+
+.calculator .digit-keys .key-0 {
+  width: 50vw;
+  text-align: left;
+  padding-left: 9vw;
+}
+
+.calculator .digit-keys .key-dot {
+  width: 25vw;
+  text-align: left;
+  padding-top: 1em;
+  font-size: 0.75em;
+}
+
+.calculator .operator-keys .calculator-key {
+  width:25vw;
+  color: rgb(33, 99, 143);
+  border-right: 0;
+  font-size: 3em;
+}
+
+.calculator .function-keys {
+  background: linear-gradient(to bottom, rgb(244, 244, 247) 0%, rgb(235, 234, 240) 100%);
+}
+
+.calculator .operator-keys {
+  background:  linear-gradient(to bottom, rgb(245, 244, 243) 0%, rgb(245, 244, 243) 100%);
+}
+
+.input-keys {
+  width: 100%;
+}
+
+.operator-keys {
+  width: 100%;
+}
