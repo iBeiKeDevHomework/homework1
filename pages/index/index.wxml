@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view id="totality">
+ <view id="result">
+  <view id="num">{{num}}</view>
+  <view id="fun">{{fun}}</view>
+ </view>
+
+<view class="buttons">
+  <view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="resetButton">AC</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="DELButton">DEL</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton" data-value="%">%</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton" data-value="/">÷</view>
+  </view>
+  <view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="7">7</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="8">8</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="9">9</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton" data-value="*">×</view>
+  </view>
+  <view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="4">4</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="5">5</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="6">6</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton" data-value="-">-</view>
+  </view>
+  <view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="1">1</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="2">2</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton" data-value="3">3</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton" data-value="+">+</view>
+  </view>
+  <view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="numButton"data-value="0">0</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="potButton">.</view>
+    <view hover-class="bg" hover-start-time="50" hover-stay-time="100" bindtap="funButton"data-value="=">=</view>
+  </view>
+</view>
+</view>
