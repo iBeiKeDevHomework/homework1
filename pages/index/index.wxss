@@ -1,0 +1,36 @@
+/**index.wxss**/
+.screen{
+ width:95%;
+  margin:0 auto;
+  height:240px;
+  line-height:350px;
+  text-align:right;
+  font-size: 380%;
+}
+.zt{
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+  font-size: 200%;
+  width:95%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.zt .ztit{
+width:170rpx;
+height:170rpx;
+line-height:170rpx;
+margin-bottom:15rpx;
+/*background:orange;*/
+text-align: center;
+border-radius: 50%;
+}
+.gray{
+  color:white;
+  background:orange;
+  
+}
+.white{
+  color:rgb(46, 45, 45);
+  background: rgb(184, 183, 183);
+}
