@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="screen">
+  {{screenData}}
+</view>
+<view class="zt">
+  <block wx:for="{{ztNum}}" wx:key="zt">
+    <view class='ztit {{(index < 4 || index % 4 == 3 ) ? "gray" : "white"}}'  bindtap="click" data-index="{{index}}" data-text='{{item}}'>{{item}} 
+    </view>
+  </block>
+</view>
