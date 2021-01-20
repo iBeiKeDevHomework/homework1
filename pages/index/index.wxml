@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<!-- 加上bindlongpress是想实现长按连续输入数字，都还没实现 -->
+<view class="screen">
+  {{result}}
+</view>
+<view class="buttonGroup buttonG1">
+<button class="button1 othercolor" id="{{id11}}" bindtap="clickButton">
+Clear
+</button>
+<button class="button1 othercolor" id="{{id12}}" bindtap="clickButton" bindlongpress="longpress">
+Back
+</button>
+<button class="button1 othercolor" id="{{id13}}" bindtap="clickButton">
+Ans
+</button>
+<button class="button1 othercolor" id="{{id20}}" bindtap="clickButton">
+e
+</button>
+</view>
+<view class="buttonGroup buttonG2">
+<button class="button1 numbercolor" id="{{id7}}" bindtap="clickButton" bindlongpress="longpress">
+7
+</button>
+<button class="button1 numbercolor" id="{{id8}}" bindtap="clickButton" bindlongpress="longpress">
+8
+</button>
+<button class="button1 numbercolor" id="{{id9}}" bindtap="clickButton" bindlongpress="longpress">
+9
+</button>
+<button class="button1 operatingcolor" id="{{id14}}" bindtap="clickButton">
+÷
+</button>
+</view>
+<view class="buttonGroup buttonG3">
+<button class="button1 numbercolor" id="{{id4}}" bindtap="clickButton" bindlongpress="longpress">
+4
+</button>
+<button class="button1 numbercolor" id="{{id5}}" bindtap="clickButton" bindlongpress="longpress">
+5
+</button>
+<button class="button1 numbercolor" id="{{id6}}" bindtap="clickButton" bindlongpress="longpress">
+6
+</button>
+<button class="button1 operatingcolor" id="{{id15}}" bindtap="clickButton">
+×
+</button>
+</view>
+<view class="buttonGroup buttonG4">
+<button class="button1 numbercolor" id="{{id1}}" bindtap="clickButton" bindlongpress="longpress">
+1
+</button>
+<button class="button1 numbercolor" id="{{id2}}" bindtap="clickButton" bindlongpress="longpress">
+2
+</button>
+<button class="button1 numbercolor" id="{{id3}}" bindtap="clickButton" bindlongpress="longpress">
+3
+</button>
+<button class="button1 operatingcolor" id="{{id16}}" bindtap="clickButton">
+-
+</button>
+</view>
+<view class="buttonGroup buttonG5">
+<button class="button2 numbercolor" id="{{id10}}" bindtap="clickButton" bindlongpress="longpress">
+0
+</button>
+<button class="button2 numbercolor" id="{{id19}}" bindtap="clickButton">
+.
+</button>
+<button class="button2 operatingcolor" id="{{id18}}"  bindtap="equal">
+=
+</button>
+<button class="button2 operatingcolor" id="{{id17}}" bindtap="clickButton">
++
+</button>
+</view>

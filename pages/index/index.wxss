@@ -1,0 +1,71 @@
+/**index.wxss**/
+page{
+  background: #030303;
+ }
+ .screen{
+  position: fixed;
+  top: 1%;
+  color: #ffffff;
+  font-size: 30px;
+  bottom: 400rpx;
+  text-align: right;
+  width: 730rpx;
+  word-wrap: break-word;
+ }
+
+ .buttonGroup{
+  display: flex;
+  flex-direction:row;
+  position: absolute;
+  width: 750rpx;
+ }
+ .buttonG1{
+  top: 10%;
+  margin-top: 2%;
+ }
+ .buttonG2{
+   top:20%;
+   margin-top: 4%;
+ }
+ .buttonG3{
+   top:30%;
+   margin-top: 6%;
+ }
+ .buttonG4{
+  top:40%;
+  margin-top: 8%;
+}
+.buttonG5{
+  top:50%;
+  margin-top: 10%;
+}
+ .button1{
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 2000px;
+ }
+ .button2{
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 2000px;
+ }
+ .button3{
+  text-align: center;
+  line-height: 70rpx;
+  
+  border-radius: 2000px;
+ }
+
+ .operatingcolor{
+   background:orange;
+   color: honeydew;
+ }
+
+ .numbercolor{
+    background:rgba(63, 51, 51, 0.774);
+    color: honeydew;
+ }
+
+ .othercolor{
+   background:gray;
+ }
