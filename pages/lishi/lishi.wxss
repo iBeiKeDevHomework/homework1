@@ -1,0 +1,4 @@
+/* pages/lishi/lishi.wxss */
+.color{
+  background: thistle;
+}
