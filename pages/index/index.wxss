@@ -1,0 +1,70 @@
+page{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+  }
+  
+  #result{   /*运算+结果区域*/
+    flex: flex-basis;
+    flex-direction: row;
+    background:rgb(255, 255, 255);
+    position: relative;
+  }
+  
+  #num{     /*结果*/
+  position: absolute;
+  font-size: 57px;
+  bottom: 5vh;
+  right: 4vw;
+  }
+  
+  #fun{     /*不知道咋把运算符隐藏……我就直接设字体大小为0了嘿嘿*/
+    font-size: 0px;
+  }
+  
+  .buttons{  /*按键部分*/
+    flex: flex-basis;
+    display:flex;
+    flex-direction: column;
+    font-size: 49px;
+  }
+  
+  .buttons>view{ /*按键部分排版*/
+    flex:1;
+    display:flex;
+  }
+  
+  .buttons>view>view{ 
+    flex: 1;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons >view:last-child>view:first-child{  /*0的盒子*/
+    flex-basis: 25.4%;
+  }
+  
+  .buttons >view:first-child>view:first-child{ /*AC*/
+    color: orange;
+    /*flex-basis: 2%;*/
+  }
+  
+  .buttons>view:first-child>view:nth-child(2){ /*DEL*/
+    color:orange;
+  }
+  
+  .buttons>view:first-child>view:nth-child(3){ /*%*/
+    color:orange;
+  }
+  
+  .buttons >view>view:last-child{   /*每一个view最后一个元素颜色*/
+    color: orange;
+  }
+  
+  .bg{   /*hover-class的颜色*/
+    background: rgb(179, 177, 177);
+  }
+  
