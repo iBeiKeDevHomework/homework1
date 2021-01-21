@@ -1,0 +1,40 @@
+<!--pages/jisuan/jisuan.wxml-->
+<view class="aaa">
+  <view class="bbb">
+    <view class="screen">
+      {{screenData}}
+    </view>
+  </view>
+  <view class="ccc">
+    <view class="ddd">
+      <view bindtap="clickBtn" id="{{gl}}" class="eee colorc">归零</view>
+      <view bindtap="clickBtn" id="{{ch}}" class="eee colorc">撤回</view>
+      <view bindtap="clickBtn" id="{{zf}}" class="eee colorb">+/-</view>
+      <view bindtap="clickBtn" id="{{ida}}" class="eee colorb">+</view>
+    </view>
+    <view class="ddd">
+      <view bindtap="clickBtn" id="{{id9}}" class="eee colora">9</view>
+      <view bindtap="clickBtn" id="{{id8}}" class="eee colora">8</view>
+      <view bindtap="clickBtn" id="{{id7}}" class="eee colora">7</view>
+      <view bindtap="clickBtn" id="{{idb}}" class="eee colorb">-</view>
+    </view>
+    <view class="ddd">
+      <view bindtap="clickBtn" id="{{id6}}" class="eee colora">6</view>
+      <view bindtap="clickBtn" id="{{id5}}" class="eee colora">5</view>
+      <view bindtap="clickBtn" id="{{id4}}" class="eee colora">4</view>
+      <view bindtap="clickBtn" id="{{idc}}" class="eee colorb">*</view>
+    </view>
+    <view class="ddd">
+      <view bindtap="clickBtn" id="{{id3}}" class="eee colora">3</view>
+      <view bindtap="clickBtn" id="{{id2}}" class="eee colora">2</view>
+      <view bindtap="clickBtn" id="{{id1}}" class="eee colora">1</view>
+      <view bindtap="clickBtn" id="{{idd}}" class="eee colorb">/</view>
+    </view>
+    <view class="ddd">
+      <view bindtap="clickBtn" id="{{id0}}" class="eee colora">0</view>
+      <view bindtap="clickBtn" id="{{xsd}}" class="eee colorb">.</view>
+      <view bindtap="clickBtn" id="{{ls}}" class="eee colorc" bindtap="lishi">历史</view>
+      <view bindtap="clickBtn" id="{{dy}}" class="eee colorb">=</view>
+    </view>
+  </view>
+</view>

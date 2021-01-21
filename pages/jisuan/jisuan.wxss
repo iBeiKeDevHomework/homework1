@@ -1,0 +1,55 @@
+/* pages/jisuan/jisuan.wxss */
+.aaa{
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bbb{
+  width: 100%;
+  height: 200rpx;
+  background: lightpink;
+  margin-bottom: 30rpx;
+  margin-top: 5rpx;
+  border-radius: 35rpx;
+}
+.ccc{
+  width: 100%;
+}
+.screen{
+  text-align: right;
+  width: 100%;
+  line-height: 200rpx;
+  padding: 0px 10rpx;
+  box-sizing: border-box;
+  font-size: 99rpx;
+
+}
+.ddd{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200rpx;
+  font-size: 66rpx;
+  font-family: STHupo;
+  font-color: pink;/*不知道怎么搞*/
+}
+.eee{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rpx;
+  margin-right: 5rpx;
+  border-radius: 52rpx;
+}
+.colora{
+  background: cornflowerblue;
+}
+.colorb{
+  background: lightskyblue;
+}
+.colorc{
+  background: skyblue;
+}
