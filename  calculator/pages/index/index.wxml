@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="input">{{tmp}}</view>
+  
+  <view class="button" >
+    <view class="single" data-char="" bindtap="handleClick">MC</view>
+    <view class="single" data-char="" bindtap="handleClick">M+</view>
+    <view class="single" data-char="" bindtap="handleClick">M-</view>
+    <view class="single" data-char="" bindtap="handleClick">MR</view>
+    <view class="single" data-char="C" bindtap="handleClick">C</view>
+    <view class="single" data-char="/" bindtap="handleClick">/</view>
+    <view class="single" data-char="*" bindtap="handleClick">*</view>
+    <view class="single" data-char="<-" bindtap="handleClick">{{"<-"}}</view>
+    <view class="single" data-char="7" bindtap="handleClick">7</view>
+    <view class="single" data-char="8" bindtap="handleClick">8</view>
+    <view class="single" data-char="9" bindtap="handleClick">9</view>
+    <view class="single" data-char="-" bindtap="handleClick">-</view>
+    <view class="single" data-char="4" bindtap="handleClick">4</view>
+    <view class="single" data-char="5" bindtap="handleClick">5</view>
+    <view class="single" data-char="6" bindtap="handleClick">6</view>
+    <view class="single" data-char="+" bindtap="handleClick">+</view>
+    <view class="single" data-char="1" bindtap="handleClick">1</view>
+    <view class="single" data-char="2" bindtap="handleClick">2</view>
+    <view class="single" data-char="3" bindtap="handleClick">3</view>
+    <view class="single" data-char="" bindtap="handleClick">%</view>
+    <view class="single" data-char="0" bindtap="handleClick">0</view>
+    <view class="single" data-char="." bindtap="handleClick">.</view>
+    <view class="double" data-char="=" bindtap="handleClick">=</view>
+  </view>
+</view>
