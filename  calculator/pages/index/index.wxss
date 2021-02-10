@@ -1,0 +1,39 @@
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  margin: 20rpx;
+}
+.container .input {
+  background-color: #ddd;
+  flex: 2;
+  margin-bottom: 30rpx;
+  border-radius: 40rpx;
+  height: 50%;
+  font-size: 70rpx;
+  padding: 30rpx 30rpx;
+}
+.container .button {
+  flex: 8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20rpx;
+}
+.container .button .single {
+  border-radius: 30rpx;
+  font-size: 60rpx;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .button .double {
+  border-radius: 30rpx;
+  font-size: 60rpx;
+  grid-area: 5/4 / span 2/4;
+  background-color: rgba(107, 247, 223, 0.733);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
